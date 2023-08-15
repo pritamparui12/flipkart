@@ -1,0 +1,56 @@
+
+.remover_item p{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 600;
+    
+}
+
+.row h3{
+    
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.row h1{
+    font-size: 1.3em;
+}
+.row img{
+    width: 10vw;
+    height: 25vh;
+}
+
+ input{
+ width: 2em;
+ border: 0px;
+ text-align: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.container{
+    
+    gap: 2%;
+}
+.rightside{
+    padding: 15px;
+    margin-top: 1.6%;
+    width: 30vw;
+    height: 50vh;
+   
+}
+.det{
+    color: rgba(0, 0, 0, 0.603);
+    position: relative;
+    top: 50%;
+    width: 25vw;
+}
+.rightside p{
+    font-size: 1.2em;
+}
+.rightside h1{
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.486);
+}
+.rightside button{
+    background-color: aqua;
+}

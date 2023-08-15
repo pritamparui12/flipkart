@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+ul {
+    list-style: none; 
+ }
+.navbar a{
+    color: #f8f2f2;
+
+}
+/*code by pritam parui*/
+.nav{
+    width: 100vw;
+    height: 4.2em;
+   background-color: rgb(56, 120, 240);
+    
+}
+#h{
+    padding-bottom: 10px;
+    font-size: 15px; 
+    color: rgb(235, 231, 24);
+    margin-bottom: 20px;
+}
+.navbar{
+    justify-content: center;
+    display: flex;
+}
+.navbar h1{
+    margin-top: 5px;
+    color: aliceblue;
+    margin-right: 5px;
+    font: 1.8em sans-serif;
+}
+.navbar input{
+    margin-top: 5px;
+    width: 30vw;
+    height: 3em;
+    margin-right: 18px;
+}
+.navbar button{
+    margin-top: 6.2px;
+    width: 9em;
+    padding: 6px;
+    color: rgb(127, 136, 255);
+    background-color: aliceblue;
+    border: 0px;
+    height: 2.8em;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    margin: 10px;
+    
+}
+.navbar ul li{
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.header img{
+    width: 8vw;
+    height: 8vw;
+    
+    
+}
+
+.banner img{
+    width: 100vw;
+    height: 40vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardmenu{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100vw;
+    display: flex;
+}
+.items{
+    padding: 5%;
+    display: flex;
+    overflow-x: scroll; 
+    scrollbar-width: none;
+}
+.items.item h3{
+    font-size: 1.5em;
+}
+.item span{
+    font-size: 1.5em;
+    color: rgb(4, 82, 34);
+}
+.item p{
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.651);
+}
+.title img{
+    margin-top: 40%;
+}
+.title{
+    padding: 2%;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.534);
+   
+}
+.items::-webkit-scrollbar {
+    display: none;
+}
+.items img{
+    width: 15vw;
+    height: 30vh;
+    margin-left: 35px;
+    
+}
+.title button{
+    width: 9em;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(16, 127, 231);
+    color: #f8f2f2;
+    height: 4em;
+    
+}
+.top-phones .title{
+    background-color: rgba(255, 251, 246, 0.664);
+    display: flex;
+    justify-content: space-between;
+}
+.top-phones .title button{
+    margin-right: 2%;
+}
+.ads{
+    overflow: hidden;
+}
+.phone-gal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ads img{
+    
+    
+    height: 55vh;
+    margin-left: 18%;
+    
+}
+
+.box img{
+ width: 50vw;
+}
+
+.dealday {
+    margin-top: 5%;
+  background-color: antiquewhite;
+   width: 80vw;
+}
+ .banads{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+ }
+ .banads img{
+    width: 30vw;
+    height: 15vh;
+ }
+.dealsec{
+    display: flex;
+}
+.adssec img{
+    margin-top: 25%;
+    width: 20vw;
+    height: 55vh;
+}
+.dealday .title{
+    display: flex;
+    justify-content: space-between;
+}
+.objects{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.ban button{
+    background-color: crimson;
+    color: aliceblue;
+    padding: 5px;
+    border: 0px;
+    width: 9em;
+}
+.bann2{
+    display: flex;
+    justify-content: space-around;
+}
+.bann2 img{
+    width: 20%;
+}

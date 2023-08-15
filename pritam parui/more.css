@@ -1,0 +1,54 @@
+ul {
+   list-style: none; 
+}
+main{
+    display: flex;
+    gap: 18px;
+}
+.left{
+    position: sticky;
+    top: 0px;
+    margin-top: 20px;
+    width: 20vw;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, 0.664);
+    height: 100dvh;
+}
+.left ul li{
+padding: 5px;
+}
+.left h1{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding-bottom: 5%;
+}
+.left h2{
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    padding-bottom: 5%;
+}
+.card{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+}
+.card p{
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.699);
+    padding-bottom: 5px;
+}
+.card img{
+    
+    width: 18vw;
+    height: 45vh;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.3%;
+}

@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+li{
+    list-style: none;
+}
+.log{
+    color: rgba(0, 0, 0, 0.562);
+    padding: 15px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.226) 0px 5px 15px;
+    background-color: aliceblue;
+    width: 60vw;
+    
+}
+
+.add{
+    margin-top: 15px;
+    background-color: rgba(0, 81, 255, 0.705);
+    color: #fff9f9;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.maincard{
+    background-color: #fff9f9;
+    padding-bottom: 25px;
+    width: 61.8vw;
+}
+.inputs {
+    margin: 15px;
+   display: flex; 
+   gap: 5px;
+}
+.inputs input{
+    text-align: start;
+    padding: 15px;
+    width: 20vw;
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.maincard button{
+    background-color: rgb(210, 87, 30);
+    color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+    width: 9em;
+}
+
+.sec2 .rightside{
+    
+    margin-top: 9%;
+    margin-right: 2vw;
+    background-color: #fff9f9;
+    height: 36vh;
+    
+}
+.detaile{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+ .sec2 .rightside p{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+ .sec2 .rightside h1{
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.486);
+}
+.ad img{
+    margin-top: 15px;
+    width: 32vw;
+    height: 20vh;
+}
